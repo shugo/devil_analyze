@@ -1,8 +1,6 @@
 require "statsample"
 require "json"
 
-include Statsample
-
 devils = JSON.parse(ARGF.read)
 obj_name = "防御"
 exp_names = ["体", "速"]
